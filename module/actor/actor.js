@@ -31,6 +31,11 @@ export class KnaveActor extends Actor {
     //clamp health
     if(data.health.value > data.health.max)
       data.health.value = data.health.max;
+
+    // clamp stamina
+    if (data.stamina.value > data.stamina.max) {
+      data.stamina.value = data.stamina.max;
+    }
     
     data.inventorySlots.value = Number(data.abilities.con.value) + Number(10);
     let used = 0;
