@@ -12,6 +12,12 @@
           "min": 0,
           "max": 8
         },
+        "stamina":
+        {
+          "value": 0,
+          "min": 0,
+          "max": 0
+        },
         "armor":
         {
           "value": 11,
